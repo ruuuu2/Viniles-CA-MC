@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>index</title>
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Encabezado */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Navegación */
+    nav {
+      background-color: #555;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    /* Contenido principal */
+    main {
+      padding: 20px;
+    }
+
+    /* Pie de página */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Diseño responsive */
+    @media (max-width: 768px) {
+      header, nav, main, footer {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>VINILES CA&CM</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#Nosotros">Nosotros</a></li>
+      <li><a href="#Categorias">Categorias</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenidos</h2>
+    </section>
+
+    <section id="acerca">
+      <h2>Nosotros:</h2>
+      <p>Somos una tienda en linea que comercializa viniles de tus artistas favoritos.
+        <li>Lana del Rey</li>
+        <li>Harry Styles</li>
+        <li>Taylor Swift</li>
+        <li>BlackPink</li>
+        <p>ENTRE OTROS!!!!</p>
+      </p>
+    </section>
+
+    <section id="Categorias">
+      <h2>Categorias</h2>
+      <ul>
+        <li><a href="./Pop.html">Pop</a></li>
+        <li><a href="./rock.html">Rock</a></li>
+        <li><a href="./Kpop.html">Kpop</a></li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Si tienes alguna pregunta o consulta, no dudes en contactarnos.</p>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Derechos de Autor &copy; 2023 - Ruben CA & Elisa CM</p>
+  </footer>
+
+</body>
+</html>
